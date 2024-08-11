@@ -1,0 +1,42 @@
+<style>
+@media screen and (max-width:480px) {
+    * {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:none;
+    }
+    body {
+        min-width:100px;
+    }
+    #topo {
+        width:80px;
+        float:left;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    * {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:none;
+    }
+    #topo {
+        width:700px;
+        margin:10px auto 0 auto;
+       
+    }
+   
+}
+
+@media screen and (min-width:481px) {
+    .hidden_desktop {
+        display:none;
+    }
+}
+@media screen and (max-width:480px) {
+    .hidden_mobile {
+        display:none;
+    }
+}
+</style>
