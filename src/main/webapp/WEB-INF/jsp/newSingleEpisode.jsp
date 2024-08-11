@@ -4,12 +4,12 @@
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="resources/new/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="resources/new/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
-<script type="text/javascript" src="resources/new/js/jquery-1.9.0.min.js"></script> 
-<script type="text/javascript" src="resources/new/js/move-top.js"></script>
-<script type="text/javascript" src="resources/new/js/easing.js"></script>
-<script type="text/javascript" src="resources/new/js/jquery.nivo.slider.js"></script>
+<link href="new/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="new/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="new/js/jquery-1.9.0.min.js"></script> 
+<script type="text/javascript" src="new/js/move-top.js"></script>
+<script type="text/javascript" src="new/js/easing.js"></script>
+<script type="text/javascript" src="new/js/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
@@ -42,7 +42,7 @@
   	  		<div class="wrap">
 				<div class="header_top">
 					<div class="logo">
-						<a href="index.html"><img src="resources/new/images/logo.png" alt="" /></a>
+						<a href="index.html"><img src="new/images/logo.png" alt="" /></a>
 					</div>
 						<div class="header_top_right">
 						  <div class="cart">
@@ -109,10 +109,8 @@
 		  	         </div>
 						    <div class="header_bottom_right">					 
 						 	    <!------ Slider ------------>
-<video width="900" height="500" controls>
-  <source src="${myshow.streamUrl}" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
- </video>
+						 	    <iframe width="900" height="500" src="${myshow.stream_url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						
 						<!------End Slider ------------>
 			         </div>
 			     <div class="clear"></div>
@@ -230,7 +228,7 @@
     	  </div>
 			<div class="section group">
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="resources/new/images/beauty_and_the_beast.jpg" alt="" /></a>
+					 <a href="preview.html"><img src="new/images/beauty_and_the_beast.jpg" alt="" /></a>
 					 <h2><a href="preview.html">Beauty and the beast</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
@@ -244,7 +242,7 @@
 					 
 				</div>
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="resources/new/images/Eclipse.jpg" alt="" /></a>
+					 <a href="preview.html"><img src="new/images/Eclipse.jpg" alt="" /></a>
 					 <h2><a href="preview.html">Eclipse</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
@@ -258,7 +256,7 @@
 					 
 				</div>
 				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="resources/new/images/Coraline.jpg" alt="" /></a>
+					<a href="preview.html"><img src="new/images/Coraline.jpg" alt="" /></a>
 					 <h2><a href="preview.html">Coraline</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
@@ -272,7 +270,7 @@
 				    
 				</div>
 				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="resources/new/images/Unstoppable.jpg" alt="" /></a>
+					<a href="preview.html"><img src="new/images/Unstoppable.jpg" alt="" /></a>
 					 <h2><a href="preview.html">Unstoppable</a></h2>
 					 <div class="price-details">
 				       <div class="price-number">
@@ -285,7 +283,7 @@
 					</div>
 				</div>
 				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="resources/new/images/Priest.jpg" alt="" /></a>
+					<a href="preview.html"><img src="new/images/Priest.jpg" alt="" /></a>
 					 <h2><a href="preview.html">Priest 3D</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
@@ -343,10 +341,10 @@
 						<div class="social-icons">
 							<h4>Follow Us</h4>
 					   		  <ul>
-							      <li><a href="#" target="_blank"><img src="resources/new/images/facebook.png" alt="" /></a></li>
-							      <li><a href="#" target="_blank"><img src="resources/new/images/twitter.png" alt="" /></a></li>
-							      <li><a href="#" target="_blank"><img src="resources/new/images/skype.png" alt="" /> </a></li>
-							      <li><a href="#" target="_blank"> <img src="resources/new/images/linkedin.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="new/images/facebook.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="new/images/twitter.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="new/images/skype.png" alt="" /> </a></li>
+							      <li><a href="#" target="_blank"> <img src="new/images/linkedin.png" alt="" /></a></li>
 							      <div class="clear"></div>
 						     </ul>
    	 					</div>

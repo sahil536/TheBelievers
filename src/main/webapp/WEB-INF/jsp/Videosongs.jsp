@@ -24,9 +24,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
-		<link rel="stylesheet" href="resources/assets/css/main.css" />
-		<link rel="stylesheet" href="resources/assets/css/menucss.css" />
-		<link rel="stylesheet" href="resources/assets/css/sidemenu.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/menucss.css" />
+		<link rel="stylesheet" href="assets/css/sidemenu.css" />
 		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 		
@@ -39,7 +39,7 @@
 				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 				formats to work correctly.
 			-->
-				<section id="banner" data-video="resources/assets/images/banner">
+				<section id="banner" data-video="assets/images/banner">
 					<div class="inner">
 						<header>
 							<h1>Watch My Show</h1>
@@ -124,12 +124,12 @@
 				</footer>
 
 		<!-- Scripts -->
-			<script src="resources/assets/js/jquery.min.js"></script>
-			<script src="resources/assets/js/jquery.scrolly.min.js"></script>
-			<script src="resources/assets/js/jquery.poptrox.min.js"></script>
-			<script src="resources/assets/js/skel.min.js"></script>
-			<script src="resources/assets/js/util.js"></script>
-			<script src="resources/assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

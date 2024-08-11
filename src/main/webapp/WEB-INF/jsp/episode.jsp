@@ -27,13 +27,13 @@
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Roboto:400,300,700' rel='stylesheet' type='text/css'>
 	<!-- Animate -->
-	<link rel="stylesheet" href="resources/css/animate.css">
+	<link rel="stylesheet" href="new/css/animate.css">
 	<!-- Icomoon -->
-	<link rel="stylesheet" href="resources/css/icomoon.css">
+	<link rel="stylesheet" href="new/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" href="new/css/bootstrap.css">
 
-	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="new/css/style.css">
 
 
 	<!-- Modernizr JS -->
@@ -46,7 +46,7 @@
 		<a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i class="icon-cross3"></i> <span>Close</span></span></a>
 		<div class="fh5co-bio">
 			<figure>
-				<img src="resources/images/person1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+				<img src="new/images/person1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
 			</figure>
 			<h3 class="heading">About Me</h3>
 			<h2>Sk Sahil</h2>
@@ -142,10 +142,7 @@
 				
 			
 					<div class="row rp-b">
-					<video width="320" height="240" controls>
-                    <source src="${myshow.streamUrl}" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    </video>
+					 <iframe width="350" height="350" src="${myshow.streamUrl}"></iframe>
 						<div class="col-md-12 animate-box">
 							<blockquote>
 								<p>&ldquo;${myshow.summary} &ldquo; </p>
@@ -165,15 +162,15 @@
 	</footer>
 	
 	<!-- jQuery -->
-	<script src="resources/js/jquery.min.js"></script>
+	<script src="new/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="resources/js/jquery.easing.1.3.js"></script>
+	<script src="new/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="new/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="resources/js/jquery.waypoints.min.js"></script>
+	<script src="new/js/jquery.waypoints.min.js"></script>
 	<!-- Main JS -->
-	<script src="resources/js/main.js"></script>
+	<script src="new/js/main.js"></script>
 
 	</body>
 </html>

@@ -4,12 +4,12 @@
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="resources/new/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="resources/new/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
-<script type="text/javascript" src="resources/new/js/jquery-1.9.0.min.js"></script> 
-<script type="text/javascript" src="resources/new/js/move-top.js"></script>
-<script type="text/javascript" src="resources/new/js/easing.js"></script>
-<script type="text/javascript" src="resources/new/js/jquery.nivo.slider.js"></script>
+<link href="new/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="new/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="new/js/jquery-1.9.0.min.js"></script> 
+<script type="text/javascript" src="new/js/move-top.js"></script>
+<script type="text/javascript" src="new/js/easing.js"></script>
+<script type="text/javascript" src="new/js/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
@@ -98,60 +98,7 @@
     		<div class="clear"></div>
     	</div>
    	 	<div class="section group">
-				<div class="cont-desc span_1_of_2">
-				  <div class="product-details">				
-					<div class="grid images_3_of_2">
-						<img src="${myshow.originalimage}" alt="" />
-				  </div>
-				<div class="desc span_3_of_2">
-					<h2>${myshow.name}</h2>
-			        <p>${myshow.summary}</p>
-			        <p> <span></span></p>				
-					<div class="price">
-						
-					</div>
-					<div class="available">
-						<ul>
-						  <li><span>IMDb Rating</span> &nbsp; 9.5</li>
-						  <li><span>Shipping Weight:</span>&nbsp; 5lbs</li>
-						  <li><span>Units in Stock:</span>&nbsp; 566</li>
-					    </ul>
-					</div>
-				<div class="share-desc">
-					<div class="share">
-						<p>Number of units :</p><input class="text_box" type="text">				
-					</div>
-					<div class="button"><span><a href="#">Add to Cart</a></span></div>					
-					<div class="clear"></div>
-				</div>
-				 <div class="wish-list">
-				 	<ul>
-				 		<li class="wish"><a href="#">Add to Wishlist</a></li>
-				 	    <li class="compare"><a href="#">Add to Compare</a></li>
-				 	</ul>
-				 </div>
-			</div>
-			<div class="clear"></div>
-		  </div>
-		<div class="product_desc">	
-	
-			 
-	   </div>
-   </div>
-				<div class="rightsidebar span_3_of_1 sidebar">
-					<h2>Season</h2>
-					<c:forEach items="${episodes}" var="episodes" end="4">
-					 	<div class="special_movies">
-					 	   <div class="movie_poster">
-					 		  <a href="preview.html"><img src="${episodes.originalimage}" alt="" /></a>
-					 		 </div>
-					 		   <div class="movie_desc">
-							  <h3>|Season ${episodes.session}|  </h3>
-							  <span><a href="">Watch Now</a></span>
-								 </div>
-								<div class="clear"></div>
-					 		</div></c:forEach>
-					 	</div>
+				
 					 	
 			<div class="section group">
 	         <c:forEach items="${episodes}" var="episodes" begin="0" end="4">
@@ -160,7 +107,7 @@
 					 <h2><a href="preview.html">${episodes.name}</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
-							  <h3>  |Episode ${episodes.episode}| </h3>
+							  <h3>  Very Long Title For Testing THe Length Supporte</h3>
 					    </div>
 					       		<div class="add-cart">								
 									<h4><a href="episode?show=${episodes.id}&season=${episodes.session}&episode=${episodes.episode}">Watch Now</a></h4>
@@ -170,7 +117,7 @@
 				</div>
 				</c:forEach>
 			</div>
-					<div class="section group">
+					<div class="section group">  
 	         <c:forEach items="${episodes}" var="episodes" begin="5" end="9">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="preview.html"><img src="${episodes.midimage}" alt="" /></a>
@@ -232,10 +179,10 @@
 						<div class="social-icons">
 							<h4>Follow Us</h4>
 					   		  <ul>
-							      <li><a href="#" target="_blank"><img src="resources/new/images/facebook.png" alt="" /></a></li>
-							      <li><a href="#" target="_blank"><img src="resources/new/images/twitter.png" alt="" /></a></li>
-							      <li><a href="#" target="_blank"><img src="resources/new/images/skype.png" alt="" /> </a></li>
-							      <li><a href="#" target="_blank"> <img src="resources/new/images/linkedin.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="new/images/facebook.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="new/images/twitter.png" alt="" /></a></li>
+							      <li><a href="#" target="_blank"><img src="new/images/skype.png" alt="" /> </a></li>
+							      <li><a href="#" target="_blank"> <img src="new/images/linkedin.png" alt="" /></a></li>
 							      <div class="clear"></div>
 						     </ul>
    	 					</div>
