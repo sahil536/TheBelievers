@@ -23,7 +23,7 @@
 				<div class="nav_list">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.html">Sitemap</a></li>
+						<li><a href="contact.html">About Us</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
@@ -42,13 +42,13 @@
   	  		<div class="wrap">
 				<div class="header_top">
 					<div class="logo">
-						<a href="index.html"><img src="new/images/logo.png" alt="" /></a>
+						<a href="index.html"><img src="new/images/newlogo.png" alt="" /></a>
 					</div>
-						<div class="header_top_right">
+			   <div class="header_top_right">
 						  <div class="cart">
-						  	   <p><span>Select</span><div id="dd" class="wrapper-dropdown-2"> (empty)
+						  	   <p><span>Quran</span><div id="dd" class="wrapper-dropdown-2">
 						  	   	<ul class="dropdown">
-										<li>you have no items in your Shopping cart</li>
+									
 								</ul></div></p>
 						  </div>
 							  <div class="search_box">
@@ -114,9 +114,11 @@
 							            <div id="slider" class="nivoSlider">
 							                <img src="new/images/1.jpg" data-thumb="images/1.jpg" alt="" />
 							                <img src="new/images/2.jpg" data-thumb="images/2.jpg" alt="" />
-							                <img src="new/images/3.jpg" data-thumb="images/3.jpg" alt="" />
+							                <img src="new/images/3.png" data-thumb="images/3.png" alt="" />
 							                <img src="new/images/4.jpg" data-thumb="images/4.jpg" alt="" />
-							                 <img src="new/images/5.jpg" data-thumb="images/5.jpg" alt="" />
+							                <img src="new/images/5.jpg" data-thumb="images/5.jpg" alt="" />
+							                <img src="new/images/6.png" data-thumb="images/6.png" alt="" />
+							                <img src="new/images/7.jpg" data-thumb="images/7.jpg" alt="" />
 							            </div>
 							        </div>
 						   		</div>
@@ -130,7 +132,529 @@
   <div class="main">
   	<div class="wrap">
       <div class="content">
-    	<div class="content_top">
+		<div class="content_bottom">
+    		<div class="heading">
+    		<h3>Complete Quran</h3>
+    		</div>
+    	  </div>
+    	  		<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/q1.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/q2.jpg" alt="" ></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/q3.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/q4.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/q5.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+			<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/q6.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/q7.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/q8.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/q9.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/q10.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+			
+			<!-- The English Bayan -->
+			<div class="content_bottom">
+    		<div class="heading">
+    		<h3>English </h3>
+    		</div>
+    	  </div>
+    	  		<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/e1.png" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/e2.jpg" alt="" ></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/e3.png" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/e4.png" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/e5.png" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+			<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/e6.png" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/e7.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/e8.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/e9.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/e10.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+			<!-- The Urdu Bayan -->
+			<div class="content_bottom">
+    		<div class="heading">
+    		<h3>Prophet Series English</h3>
+    		</div>
+    	  </div>
+    	  		<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/pse1.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/pse2.jpg" alt="" ></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/pse3.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/pse4.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/pse5.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+			<!-- Prophet Series Urdu/Hindi -->
+			<div class="content_bottom">
+    		<div class="heading">
+    		<h3>Prophet Series Urdu/hindi </h3>
+    		</div>
+    	  </div>
+    	  		<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/psu1.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/psu2.jpg" alt="" ></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/psu3.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/psu4.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/psu5.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+			<!-- Urdu hindi -->
+			<div class="content_bottom">
+    		<div class="heading">
+    		<h3>Urdu/hindi </h3>
+    		</div>
+    	  </div>
+    	  		<div class="section group">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/u1.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Beauty and the beast</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><img src="new/images/u2.jpg" alt="" ></a>
+					 <h2><a href="preview.html">Eclipse</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/u3.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Coraline</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				    
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/u4.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Unstoppable</a></h2>
+					 <div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
+					<a href="preview.html"><img src="new/images/u1.jpg" alt="" /></a>
+					 <h2><a href="preview.html">Priest 3D</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="preview.html">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					 </div>				     
+				</div>
+			</div>
+
+			
+			<div class="content_top">
     		<div class="heading">
     		<h3>English TV Show</h3>
     		</div>
@@ -138,7 +662,7 @@
 	      <div class="section group">
 	       <c:forEach items="${shows}" var="shows" begin="0" end="4">
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="${shows.midimage}" alt="" /></a>
+					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
 					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
@@ -153,115 +677,9 @@
 				</c:forEach>
 			</div>
 			
-			     <div class="section group">
-	       <c:forEach items="${shows}" var="shows" begin="5" end="9">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="${shows.midimage}" alt="" /></a>
-					 <h2><a href="preview.html">${shows.name}</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="singleShow?showId=${shows.id}">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>					 
-				</div>
-				</c:forEach>
-			</div>
-			     <div class="section group">
-	       <c:forEach items="${shows}" var="shows" begin="10" end="14">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="${shows.midimage}" alt="" /></a>
-					 <h2><a href="preview.html">${shows.name}</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>					 
-				</div>
-				</c:forEach>
-			</div>
-			<div class="content_bottom">
-    		<div class="heading">
-    		<h3>English Movies</h3>
-    		</div>
-    	  </div>
-			<div class="section group">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/beauty_and_the_beast.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Beauty and the beast</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/Eclipse.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Eclipse</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/Coraline.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Coraline</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				    
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/Unstoppable.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Unstoppable</a></h2>
-					 <div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/Priest.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Priest 3D</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					 </div>				     
-				</div>
-			</div>
+	
+			
+			
        </div>
   </div>
 </div>
@@ -317,7 +735,7 @@
 				</div>
 			</div>
 			 <div class="copy_right">
-				<p>www.watchmyshow.com © All rights Reseverd | Design by  <a href="www.infoexplorers.com">Sk Sahil</a> </p>
+				<p>www.watchmyshow.com Â© All rights Reseverd | Design by  <a href="www.infoexplorers.com">Sk Sahil</a> </p>
 		   </div>			
         </div>
     </div>
