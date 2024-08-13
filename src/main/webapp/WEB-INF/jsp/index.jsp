@@ -140,7 +140,7 @@
     	  <div class="section group">
     	  		<c:forEach items="${quran}" var="quran" begin="0" end="4">
 				<div class="grid_1_of_5 images_1_of_5" style="color:red">
-					 <a href="get-video-details?videoId=${quran.id}"><img src="new/images/q1.jpg" alt="" /></a>
+					 <a href="get-video-details?videoId=${quran.id}"><img src="${quran.midimage}" alt="" /></a>
 					 <h2><a href="get-video-details?videoId=${quran.id}">${quran.title}</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
