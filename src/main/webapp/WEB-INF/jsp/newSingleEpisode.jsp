@@ -41,24 +41,31 @@
 	  	</div>
   	  		<div class="wrap">
 				<div class="header_top">
-					<div class="logo">
-						<a href="index.html"><img src="new/images/logo.png" alt="" /></a>
-					</div>
-						<div class="header_top_right">
-						  <div class="cart">
-						  	   <p><span>Select</span><div id="dd" class="wrapper-dropdown-2"> (empty)
+				<div class="logo">
+					<a href="index.html"><img src="new/images/newlogo.png" alt="" /></a>
+				</div>
+				<div class="header_top_right">
+					<div class="cart">
+						<p>
+							<span>Quran</span><div id="dd" class="wrapper-dropdown-2">
 						  	   	<ul class="dropdown">
-										<li>you have no items in your Shopping cart</li>
-								</ul></div></p>
+									
+								</ul>
+						</div>
+						</p>
 						  </div>
 							  <div class="search_box">
 					     		<form>
-					     			<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
+					     			<input type="text" value="Search"
+								onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Search';}"><input
+								type="submit" value="">
 					     		</form>
 					     	</div>
 						 <div class="clear"></div>
 					</div>
-						  <script type="text/javascript">
+				
+							<script type="text/javascript">
 								function DropDown(el) {
 									this.dd = el;
 									this.initEvents();
@@ -85,7 +92,8 @@
 					
 								});
 					    </script>
-			 <div class="clear"></div>
+			 
+						<div class="clear"></div>
   		</div>     
 				<div class="header_bottom">
 					<div class="header_bottom_left">				
@@ -109,8 +117,8 @@
 		  	         </div>
 						    <div class="header_bottom_right">					 
 						 	    <!------ Slider ------------>
-						 	    <!--   <iframe width="900" height="500" src="${myshow.stream_url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
-						<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559448823372%2Fvideos%2F486380907121043%2F&show_text=false&width=560&t=0" width="900" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+						 	  <iframe width="900" height="500" src="${videoDetails.embadableURL}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						 <!-- <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559448823372%2Fvideos%2F486380907121043%2F&show_text=false&width=560&t=0" width="900" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>-->
 						<!------End Slider ------------>
 			         </div>
 			     <div class="clear"></div>
