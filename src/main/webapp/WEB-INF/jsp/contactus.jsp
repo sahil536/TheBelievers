@@ -134,14 +134,14 @@
   <div class="main">
   	<div class="wrap">
       <div class="content">
-		<div class="content_top">
+		<div class="content_bottom">
     		<div class="heading">
     		<h3>Complete Quran</h3>
     		</div>
     	  </div>
     	  <div class="section group">
     	  		<c:forEach items="${quran}" var="quran" begin="0" end="4">
-				<div class="grid_1_of_5 images_1_of_5">
+				<div class="grid_1_of_5 images_1_of_5" style="color:red">
 					 <a href="get-video-details?videoId=${quran.id}"><img src="${quran.midimage}" alt="" /></a>
 					 <h2><a href="get-video-details?videoId=${quran.id}">${quran.title}</a></h2>
 					<div class="price-details">

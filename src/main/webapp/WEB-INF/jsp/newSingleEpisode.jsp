@@ -23,7 +23,7 @@
 				<div class="nav_list">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.html">Sitemap</a></li>
+						<li><a href="contact.html">About Us</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
@@ -42,7 +42,7 @@
   	  		<div class="wrap">
 				<div class="header_top">
 				<div class="logo">
-					<a href="index.html"><img src="new/images/newlogo.png" alt="" /></a>
+					<a href="index.html"><img src="new/images/newlog.png" alt="" /></a>
 				</div>
 				<div class="header_top_right">
 					<div class="cart">
@@ -101,23 +101,24 @@
 						   <ul>
 						  	   <h3>Categories</h3>
 							      <li><a href="#">All</a></li>
-							      <li><a href="#">Hindi</a></li>
-							      <li><a href="#">Telugu</a></li>
-							      <li><a href="#">English</a></li>
-							      <li><a href="#">Tamil</a></li>
-							       <li><a href="#">Malayalam</a></li>
-							       <li><a href="#">Kannada</a></li>
-							       <li><a href="#">Bengali</a></li>
-							       <li><a href="#">Assami</a></li>
-							       <li><a href="#">Kids</a></li>
-							       <li><a href="#">Animation</a></li>
-							       <li><a href="#">Games</a></li>
-						  	 </ul>
+							      <li><a href="#">Complete Quran</a></li>
+							      <li><a href="#">Best Surah</a></li>
+							      <li><a href="#">English Bayan</a></li>
+							      <li><a href="#">URDU BAYAN</a></li>
+							       <li><a href="#">PROPHET SERIES ENGLISH</a></li>
+							       <li><a href="#">PROPHET SERIES URDU</a></li>
+							       <li><a href="#">THE LOST ISLAMIC HISTORY</a></li>
+							       <li><a href="#">ISLAMIC GOLDEN AGE</a></li>
+							       <li><a href="#">LEARN ISLAM</a></li>
+							       <li><a href="#">ISLAMIC SCHOLARS</a></li>
+							       <li><a href="#">FIVE PILLARS OF ISLAM</a></li>
+							       <li><a href="#">WHO ARE TRUE BELIEVERS</a></li>
+							   </ul>
 						</div>					
 		  	         </div>
 						    <div class="header_bottom_right">					 
 						 	    <!------ Slider ------------>
-						 	  <iframe width="900" height="500" src="${videoDetails.embadableURL}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						 	  <iframe width="840" height="486" src="${videoDetails.embadableURL}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						 <!-- <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559448823372%2Fvideos%2F486380907121043%2F&show_text=false&width=560&t=0" width="900" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>-->
 						<!------End Slider ------------>
 			         </div>
@@ -133,23 +134,24 @@
       
       <div class="content_top">
     		<div class="heading">
-    		<h3>Some More Episodes</h3>
+    		<h3>Related Videos</h3>
     		</div>
     	</div>
-    		<div class="section group">
-	         <c:forEach items="${episodes}" var="episodes" begin="0" end="4">
+   	  <div class="section group">
+    	  		<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos" begin="0" end="4">
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="${episodes.midimage}" alt="" /></a>
-					 <h2><a href="preview.html">${episodes.name}</a></h2>
+					 <a href="get-video-details?videoId=${moreRelatedVideos.id}"><img src="${moreRelatedVideos.midimage}" alt="" /></a>
+					 <h2><a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a></h2>
 					<div class="price-details">
 				       <div class="price-number">
-							  <h3>  |Episode ${episodes.episode}| </h3>
+							<p><span class="rupees">Rating 9.5</span></p>
 					    </div>
 					       		<div class="add-cart">								
-									<h4><a href="episode?show=${episodes.id}&season=${episodes.session}&episode=${episodes.episode}">Watch Now</a></h4>
+									<h4><a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch Now</a></h4>
 							     </div>
 							 <div class="clear"></div>
-					</div>					 
+					</div>
+					 
 				</div>
 				</c:forEach>
 			</div>

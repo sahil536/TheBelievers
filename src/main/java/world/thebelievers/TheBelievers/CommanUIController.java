@@ -53,8 +53,8 @@ public class CommanUIController {
 	public String getVideoDetails(ModelMap model,@RequestParam String videoId) {
 		YouTubeVideos videoDetails= commonService.getVideoDetailsById(Long.parseLong(videoId));
 		model.addAttribute("videoDetails",videoDetails);
-		List<ShowsVos>shows=aPIService.getShowsList();
-		model.addAttribute("shows", shows);
+		List<YouTubeVideos> moreRelatedVideos=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.valueOf(videoDetails.getCategory()), Language.valueOf(videoDetails.getLanguage()), 20);
+		model.addAttribute("moreRelatedVideos", moreRelatedVideos);
 		List<ShowsVos>episodes= new ArrayList<ShowsVos>();
 		model.addAttribute("episodes", episodes);	
 	    return "newSingleEpisode";

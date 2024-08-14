@@ -9,7 +9,5 @@ public class TheBelieversApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TheBelieversApplication.class, args);
-	}
-
-	
+	}	
 }
