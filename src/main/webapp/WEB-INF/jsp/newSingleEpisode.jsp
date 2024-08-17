@@ -155,6 +155,60 @@
 				</div>
 				</c:forEach>
 			</div>
+			   	  <div class="section group">
+    	  		<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos" begin="5" end="9">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="get-video-details?videoId=${moreRelatedVideos.id}"><img src="${moreRelatedVideos.midimage}" alt="" /></a>
+					 <h2><a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				</c:forEach>
+			</div>
+			   	  <div class="section group">
+    	  		<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos" begin="10" end="14">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="get-video-details?videoId=${moreRelatedVideos.id}"><img src="${moreRelatedVideos.midimage}" alt="" /></a>
+					 <h2><a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				</c:forEach>
+			</div>
+			   	  <div class="section group">
+    	  		<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos" begin="15" end="19">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="get-video-details?videoId=${moreRelatedVideos.id}"><img src="${moreRelatedVideos.midimage}" alt="" /></a>
+					 <h2><a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				</c:forEach>
+			</div>
 			
 			<div class="section group">
 	         <c:forEach items="${episodes}" var="episodes" begin="5" end="9">
