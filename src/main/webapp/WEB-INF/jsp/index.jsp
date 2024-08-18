@@ -94,7 +94,7 @@
 						   <ul>
 						  	   <h3>Categories</h3>
 							      <li><a href="#">All</a></li>
-							      <li><a href="#">Complete Quran</a></li>
+							      <li><a href="completeQuran">Complete Quran</a></li>
 							      <li><a href="#">Best Surah</a></li>
 							      <li><a href="#">English Bayan</a></li>
 							      <li><a href="#">URDU BAYAN</a></li>
@@ -640,7 +640,7 @@
 				</div>
 			</div>
 			 <div class="copy_right">
-				<p>www.watchmyshow.com © All rights Reseverd | Design by  <a href="www.infoexplorers.com">Sk Sahil</a> </p>
+				<a href="thebelievers.world">www.thebelievers.world</a> @ All rights Reseverd | Design by  <a href="/">Sk Sahil</a> </p>
 		   </div>			
         </div>
     </div>

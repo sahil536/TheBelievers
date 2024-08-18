@@ -59,7 +59,12 @@ public class CommanUIController {
 		model.addAttribute("episodes", episodes);	
 	    return "newSingleEpisode";
 	}
-	
+	@RequestMapping(value = {"/completeQuran"}, method = RequestMethod.GET)
+	public String completeQuran(ModelMap model) {
+		List<YouTubeVideos> quran=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.QURAN, Language.ENGLISH, 114);
+		model.addAttribute("quran", quran);
+	    return "completeQuran";
+	}
 	@RequestMapping(value = {"/singleShow"}, method = RequestMethod.GET)
 	public String singleShow(ModelMap model,@RequestParam String showId) {
 		model.addAttribute("myshow",aPIService.getShowById(Long.parseLong(showId)));
