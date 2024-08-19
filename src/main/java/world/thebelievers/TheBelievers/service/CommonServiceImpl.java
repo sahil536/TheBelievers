@@ -21,10 +21,10 @@ public class CommonServiceImpl implements CommonService{
 	@Override
 	public List<YouTubeVideos> getYouTubeVideoListByCategoryAndLanguage(Category category, Language language,
 			Integer count) {
-		return youTubeVideosRepository.getYouTubeVideoListByCategoryAndLanguage(category, language, count);
+		System.out.println("Hello");
+		List<YouTubeVideos> videosList=youTubeVideosRepository.getYouTubeVideoListByCategoryAndLanguage(category.toString(), language.toString(), count);
+		return videosList;
 	}
-
-
 
 	@Override
 	public YouTubeVideos getVideoDetailsById(Long vidoeId) {

@@ -801,8 +801,9 @@
 				</div>
 			</div>
 			<div class="copy_right">
-				<a href="thebelievers.world">www.thebelievers.world</a> @ All rights
-				Reseverd | Design by <a href="/">Sk Sahil</a>
+					<p>
+					www.thebelievers.world © All rights Reseverd | Design by <a
+						href="www.thebelievers.world">The Believers</a>
 				</p>
 			</div>
 		</div>

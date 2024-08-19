@@ -93,13 +93,13 @@
 						<div class="categories">
 						   <ul>
 						  	   <h3>Categories</h3>
-							      <li><a href="#">All</a></li>
 							      <li><a href="completeQuran">Complete Quran</a></li>
 							      <li><a href="#">Best Surah</a></li>
 							      <li><a href="#">English Bayan</a></li>
-							      <li><a href="#">URDU BAYAN</a></li>
 							       <li><a href="#">PROPHET SERIES ENGLISH</a></li>
+							       <li><a href="#">URDU BAYAN</a></li>
 							       <li><a href="#">PROPHET SERIES URDU</a></li>
+							       <li><a href="#">Islamic Caliphates(Khalifa)</a></li>
 							       <li><a href="#">THE LOST ISLAMIC HISTORY</a></li>
 							       <li><a href="#">ISLAMIC GOLDEN AGE</a></li>
 							       <li><a href="#">LEARN ISLAM</a></li>
@@ -186,149 +186,60 @@
 			<!-- The English Bayan -->
 			<div class="content_bottom">
     		<div class="heading">
-    		<h3>English </h3>
+    		<h3>BAYAN English </h3>
     		</div>
     	  </div>
-    	  		<div class="section group">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/e1.png" alt="" /></a>
-					 <h2><a href="preview.html">Beauty and the beast</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+    	      	<div class="section group">
+					<c:forEach items="${bayanEnglish}" var="bayanEnglish" begin="0" end="4">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayanEnglish.id}"><img
+								src="${bayanEnglish.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayanEnglish.id}">${bayanEnglish.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${bayanEnglish.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/e2.jpg" alt="" ></a>
-					 <h2><a href="preview.html">Eclipse</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+				
+				  <div class="section group">
+					<c:forEach items="${bayanEnglish}" var="bayanEnglish" begin="5" end="9">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayanEnglish.id}"><img
+								src="${bayanEnglish.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayanEnglish.id}">${bayanEnglish.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${bayanEnglish.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/e3.png" alt="" /></a>
-					 <h2><a href="preview.html">Coraline</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				    
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/e4.png" alt="" /></a>
-					 <h2><a href="preview.html">Unstoppable</a></h2>
-					 <div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/e5.png" alt="" /></a>
-					 <h2><a href="preview.html">Priest 3D</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					 </div>				     
-				</div>
-			</div>
-			<div class="section group">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/e6.png" alt="" /></a>
-					 <h2><a href="preview.html">Beauty and the beast</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/e7.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Eclipse</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/e8.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Coraline</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				    
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/e9.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Unstoppable</a></h2>
-					 <div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/e10.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Priest 3D</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					 </div>				     
-				</div>
-			</div>
+
+	
 			<!-- The Urdu Bayan -->
 			<div class="content_bottom">
     		<div class="heading">
@@ -336,227 +247,141 @@
     		</div>
     	  </div>
     	  		<div class="section group">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/pse1.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Beauty and the beast</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+					<c:forEach items="${prophetSeriesEnglish}" var="prophetSeriesEnglish" begin="0" end="4">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${prophetSeriesEnglish.id}"><img
+								src="${prophetSeriesEnglish.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${prophetSeriesEnglish.id}">${prophetSeriesEnglish.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${prophetSeriesEnglish.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/pse2.jpg" alt="" ></a>
-					 <h2><a href="preview.html">Eclipse</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/pse3.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Coraline</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				    
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/pse4.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Unstoppable</a></h2>
-					 <div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/pse5.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Priest 3D</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					 </div>				     
-				</div>
-			</div>
 			<!-- Prophet Series Urdu/Hindi -->
 			<div class="content_bottom">
     		<div class="heading">
     		<h3>Prophet Series Urdu/hindi </h3>
     		</div>
     	  </div>
-    	  		<div class="section group">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/psu1.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Beauty and the beast</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+    	  
+    	      	  	<div class="section group">
+					<c:forEach items="${prophetSeriesUrduHindi}" var="prophetSeriesUrduHindi" begin="0" end="4">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}"><img
+								src="${prophetSeriesUrduHindi.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}">${prophetSeriesUrduHindi.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/psu2.jpg" alt="" ></a>
-					 <h2><a href="preview.html">Eclipse</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+				<div class="section group">
+					<c:forEach items="${prophetSeriesUrduHindi}" var="prophetSeriesUrduHindi" begin="5" end="9">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}"><img
+								src="${prophetSeriesUrduHindi.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}">${prophetSeriesUrduHindi.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/psu3.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Coraline</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				    
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/psu4.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Unstoppable</a></h2>
-					 <div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/psu5.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Priest 3D</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					 </div>				     
-				</div>
-			</div>
+				
+  
 			<!-- Urdu hindi -->
 			<div class="content_bottom">
     		<div class="heading">
-    		<h3>Urdu/hindi </h3>
+    		<h3>BAYAN Urdu/hindi </h3>
     		</div>
     	  </div>
-    	  		<div class="section group">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/u1.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Beauty and the beast</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+
+				 <div class="section group">
+					<c:forEach items="${bayanUrduHindi}" var="bayanUrduHindi" begin="0" end="4">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayanUrduHindi.id}"><img
+								src="${bayanUrduHindi.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayanUrduHindi.id}">${bayanUrduHindi.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${bayanUrduHindi.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><img src="new/images/u2.jpg" alt="" ></a>
-					 <h2><a href="preview.html">Eclipse</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-					 
+				<div class="section group">
+					<c:forEach items="${bayanUrduHindi}" var="bayanUrduHindi" begin="5" end="9">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayanUrduHindi.id}"><img
+								src="${bayanUrduHindi.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayanUrduHindi.id}">${bayanUrduHindi.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${bayanUrduHindi.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/u3.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Coraline</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				    
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/u4.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Unstoppable</a></h2>
-					 <div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>
-				</div>
-				<div class="grid_1_of_5 images_1_of_5">
-					<a href="preview.html"><img src="new/images/u1.jpg" alt="" /></a>
-					 <h2><a href="preview.html">Priest 3D</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="preview.html">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					 </div>				     
-				</div>
-			</div>
 
 			
 			<div class="content_top">
@@ -565,19 +390,11 @@
     		</div>
     	</div>
 	      <div class="section group">
-	       <c:forEach items="${quran}" var="quran" begin="0" end="4">
+	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="4">
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
-					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="singleShow?showId=${shows.id}">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>					 
+					 <a href="preview.html"><iframe width="182" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
+		
+									 
 				</div>
 				</c:forEach>
 			</div>
@@ -640,7 +457,10 @@
 				</div>
 			</div>
 			 <div class="copy_right">
-				<a href="thebelievers.world">www.thebelievers.world</a> @ All rights Reseverd | Design by  <a href="/">Sk Sahil</a> </p>
+					<p>
+					www.thebelievers.world © All rights Reseverd | Design by <a
+						href="www.thebelievers.world">The Believers</a>
+				</p>
 		   </div>			
         </div>
     </div>
