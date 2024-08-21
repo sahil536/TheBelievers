@@ -53,4 +53,16 @@ public class CommanUIController {
 		model.addAttribute("quran", quran);
 	    return "completeQuran";
 	}
+	@RequestMapping(value = {"/islamicScholars"}, method = RequestMethod.GET)
+	public String islamicScholars(ModelMap model) {
+		List<YouTubeVideos> bestIslamicScholars=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.ISLAMIC_SCHOLARS, Language.ENGLISH,20);
+		model.addAttribute("bestIslamicScholars", bestIslamicScholars);
+	    return "islamicScholars";
+	}
+	@RequestMapping(value = {"/bestSurah"}, method = RequestMethod.GET)
+	public String bestSurah(ModelMap model) {
+		List<YouTubeVideos> bestSurah=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.SURAH, Language.ENGLISH, 50);
+		model.addAttribute("bestSurah", bestSurah);
+		return "bestSurah";
+	}
 }

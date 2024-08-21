@@ -247,8 +247,9 @@ body {
     font-family: 'Lobster';
     margin:0 20px;
     background:url(../images/drop_arrow.png) no-repeat 0;
-    border-bottom: 1px solid #F1F1F1;
-    text-transform:uppercase;	
+    border-bottom: 0px solid #F1F1F1;
+    text-transform:uppercase;
+    	
 }
 .categories li:last-child a{
 	border:none;
@@ -280,7 +281,7 @@ body {
 .heading h3 {
 	font-family: 'ambleregular';
 	font-size:1.2em;
-	color:#DE3163;
+	color:#004040;
 	text-transform: uppercase;
 }
 /**** Grid 1_0f_5 ****/
@@ -1048,4 +1049,7 @@ body {
             line-height: 1.5;
             letter-spacing: 1px;
         }
+        .selected-state {
+     background: #c24e4e;
+}
 }

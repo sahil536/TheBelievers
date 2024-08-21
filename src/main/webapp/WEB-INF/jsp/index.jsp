@@ -16,6 +16,12 @@
     });
     </script>
 <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=66c0e4e8ecd17b0019b85d3f&product=sticky-share-buttons' async='async'></script>
+<style> article p ,h2 {
+           font-display: swap;
+           font-family: "Merriweather";
+           font-style: italic;
+           font-weight: 1000;
+        }</style>
 </head>
 <body>
 	<div class="header">
@@ -94,16 +100,16 @@
 						   <ul>
 						  	   <h3>Categories</h3>
 							      <li><a href="completeQuran">Complete Quran</a></li>
-							      <li><a href="#">Best Surah</a></li>
+							      <li><a href="bestSurah">Best Surah</a></li>
 							      <li><a href="#">English Bayan</a></li>
 							       <li><a href="#">PROPHET SERIES ENGLISH</a></li>
 							       <li><a href="#">URDU BAYAN</a></li>
 							       <li><a href="#">PROPHET SERIES URDU</a></li>
 							       <li><a href="#">Islamic Caliphates(Khalifa)</a></li>
+							       <li><a href="islamicScholars" >ISLAMIC SCHOLARS</a></li>
 							       <li><a href="#">THE LOST ISLAMIC HISTORY</a></li>
 							       <li><a href="#">ISLAMIC GOLDEN AGE</a></li>
 							       <li><a href="#">LEARN ISLAM</a></li>
-							       <li><a href="#">ISLAMIC SCHOLARS</a></li>
 							       <li><a href="#">FIVE PILLARS OF ISLAM</a></li>
 							       <li><a href="#">WHO ARE TRUE BELIEVERS</a></li>
 							   
@@ -458,7 +464,7 @@
 			</div>
 			 <div class="copy_right">
 					<p>
-					www.thebelievers.world © All rights Reseverd | Design by <a
+					www.thebelievers.world &copy; All rights Reseverd | Design by <a
 						href="www.thebelievers.world">The Believers</a>
 				</p>
 		   </div>			
