@@ -101,25 +101,7 @@
 			</div>
 			<div class="header_bottom">
 				<div class="header_bottom_left">
-					<div class="categories">
-						<ul>
-							<h3>Categories</h3>
-							<li><a href="/">All</a></li>
-							<li><a href="completeQuran">Complete Quran</a></li>
-							<li><a href="#">Best Surah</a></li>
-							<li><a href="#">English Bayan</a></li>
-							<li><a href="#">URDU BAYAN</a></li>
-							<li><a href="#">PROPHET SERIES ENGLISH</a></li>
-							<li><a href="#">PROPHET SERIES URDU</a></li>
-							<li><a href="#">THE LOST ISLAMIC HISTORY</a></li>
-							<li><a href="#">ISLAMIC GOLDEN AGE</a></li>
-							<li><a href="#">LEARN ISLAM</a></li>
-							<li><a href="#">ISLAMIC SCHOLARS</a></li>
-							<li><a href="#">FIVE PILLARS OF ISLAM</a></li>
-							<li><a href="#">WHO ARE TRUE BELIEVERS</a></li>
-
-						</ul>
-					</div>
+				<jsp:include page="category.jsp"></jsp:include>
 				</div>
 				<div class="header_bottom_right">
 					<!------ Slider ------------>
@@ -745,69 +727,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<div class="wrap">
-			<div class="section group">
-				<div class="col_1_of_4 span_1_of_4">
-					<h4>Information</h4>
-					<ul>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Customer Service</a></li>
-						<li><a href="#">Advanced Search</a></li>
-						<li><a href="#">Orders and Returns</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h4>Why buy from us</h4>
-					<ul>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Customer Service</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="contact.html">Site Map</a></li>
-						<li><a href="#">Search Terms</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h4>My account</h4>
-					<ul>
-						<li><a href="contact.html">Sign In</a></li>
-						<li><a href="index.html">View Cart</a></li>
-						<li><a href="#">My Wishlist</a></li>
-						<li><a href="#">Track My Order</a></li>
-						<li><a href="contact.html">Help</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h4>Contact</h4>
-					<ul>
-						<li><span>+91-8506873033</span></li>
-						<li><span>+91-9971881632</span></li>
-					</ul>
-					<div class="social-icons">
-						<h4>Follow Us</h4>
-						<ul>
-							<li><a href="#" target="_blank"><img
-									src="new/images/facebook.png" alt="" /></a></li>
-							<li><a href="#" target="_blank"><img
-									src="new/images/twitter.png" alt="" /></a></li>
-							<li><a href="#" target="_blank"><img
-									src="new/images/skype.png" alt="" /> </a></li>
-							<li><a href="#" target="_blank"> <img
-									src="new/images/linkedin.png" alt="" /></a></li>
-							<div class="clear"></div>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="copy_right">
-					<p>
-					www.thebelievers.world © All rights Reseverd | Design by <a
-						href="www.thebelievers.world">The Believers</a>
-				</p>
-			</div>
-		</div>
-	</div>
+<jsp:include page="footer.jsp"></jsp:include>
 	<script type="text/javascript">
 		$(document).ready(function() {			
 			$().UItoTop({ easingType: 'easeOutQuart' });

@@ -18,24 +18,15 @@
         $('#slider').nivoSlider();
     });
     </script>
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=66c0e4e8ecd17b0019b85d3f&product=sticky-share-buttons' async='async'></script>
+<script type='text/javascript'
+	src='https://platform-api.sharethis.com/js/sharethis.js#property=66c0e4e8ecd17b0019b85d3f&product=sticky-share-buttons'
+	async='async'></script>
 <style>
-.responsive-video {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000; /* Optional: Background color while video is loading */
-}
-
-.responsive-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+article p, h2 {
+	font-display: swap;
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 1000;
 }
 </style>
 </head>
@@ -65,7 +56,7 @@
 		<div class="wrap">
 			<div class="header_top">
 				<div class="logo">
-					<a href="index.html"><img src="new/images/newlog.png" alt="" /></a>
+					<a href="/"><img src="new/images/newlogo.png" alt="" /></a>
 				</div>
 				<div class="header_top_right">
 					<div class="cart">
@@ -87,7 +78,6 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-
 				<script type="text/javascript">
 								function DropDown(el) {
 									this.dd = el;
@@ -115,23 +105,27 @@
 					
 								});
 					    </script>
-
 				<div class="clear"></div>
 			</div>
 			<div class="header_bottom">
 				<div class="header_bottom_left">
-				<jsp:include page="category.jsp"></jsp:include>
+					<jsp:include page="category.jsp"></jsp:include>
 				</div>
 				<div class="header_bottom_right">
-				<div class="responsive-video">
-				<iframe src="${videoDetails.embadableURL}"
-						title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						   		</div>
 					<!------ Slider ------------>
-					
-					<!-- <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559448823372%2Fvideos%2F486380907121043%2F&show_text=false&width=560&t=0" width="900" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>-->
+					<div class="slider">
+						<div class="slider-wrapper theme-default">
+							<div id="slider" class="nivoSlider">
+								<img src="new/images/1.jpg" data-thumb="images/1.jpg" alt="" />
+								<img src="new/images/2.jpg" data-thumb="images/2.jpg" alt="" />
+								<img src="new/images/3.png" data-thumb="images/3.png" alt="" />
+								<img src="new/images/4.jpg" data-thumb="images/4.jpg" alt="" />
+								<img src="new/images/5.jpg" data-thumb="images/5.jpg" alt="" />
+								<img src="new/images/6.png" data-thumb="images/6.png" alt="" />
+								<img src="new/images/7.jpg" data-thumb="images/7.jpg" alt="" />
+							</div>
+						</div>
+					</div>
 					<!------End Slider ------------>
 				</div>
 				<div class="clear"></div>
@@ -142,142 +136,131 @@
 	<div class="main">
 		<div class="wrap">
 			<div class="content">
+				<div class="content_top">
+					<div class="heading">
+						<h3>${bayanHeading}</h3>
+					</div>
+				</div>
+				<div class="section group">
+					<c:forEach items="${bayan}" var="bayan" begin="0" end="4">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayan.id}"><img
+								src="${bayan.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+									<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+
+									<h4>
+										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
+				<div class="section group">
+					<c:forEach items="${bayan}" var="bayan" begin="5" end="9">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayan.id}"><img
+								src="${bayan.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+									<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+									<h4>
+										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
+								<div class="section group">
+					<c:forEach items="${bayan}" var="bayan" begin="10" end="14">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayan.id}"><img
+								src="${bayan.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+									<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+									<h4>
+										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
+								<div class="section group">
+					<c:forEach items="${bayan}" var="bayan" begin="15" end="19">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayan.id}"><img
+								src="${bayan.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+									<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+									<h4>
+										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
+
+
 
 
 				<div class="content_top">
 					<div class="heading">
-						<h3>Related Videos</h3>
+						<h3>SOME MORE</h3>
 					</div>
 				</div>
 				<div class="section group">
-					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="0" end="4">
+					<c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="4">
 						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
-								src="${moreRelatedVideos.midimage}" alt="" /></a>
-							<h2>
-								<a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a>
-							</h2>
-							<div class="price-details">
-								<div class="price-number">
-							<div class="sharethis-inline-share-buttons"></div>
-								</div>
-								<div class="add-cart">
-									<h4>
-										<a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch
-											Now</a>
-									</h4>
-								</div>
-								<div class="clear"></div>
-							</div>
+							<a href="preview.html"><iframe width="182" height="300"
+									src="${bestshorts.embadableURL}" title="" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen></iframe></a>
+
 
 						</div>
 					</c:forEach>
 				</div>
-				<div class="section group">
-					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="5" end="9">
-						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
-								src="${moreRelatedVideos.midimage}" alt="" /></a>
-							<h2>
-								<a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a>
-							</h2>
-							<div class="price-details">
-								<div class="price-number">
-						<div class="sharethis-inline-share-buttons"></div>
-								</div>
-								<div class="add-cart">
-									<h4>
-										<a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch
-											Now</a>
-									</h4>
-								</div>
-								<div class="clear"></div>
-							</div>
-
-						</div>
-					</c:forEach>
-				</div>
-				<div class="section group">
-					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="10" end="14">
-						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
-								src="${moreRelatedVideos.midimage}" alt="" /></a>
-							<h2>
-								<a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a>
-							</h2>
-							<div class="price-details">
-								<div class="price-number">
-							<div class="sharethis-inline-share-buttons"></div>
-								</div>
-								<div class="add-cart">
-									<h4>
-										<a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch
-											Now</a>
-									</h4>
-								</div>
-								<div class="clear"></div>
-							</div>
-
-						</div>
-					</c:forEach>
-				</div>
-				<div class="section group">
-					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="15" end="19">
-						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
-								src="${moreRelatedVideos.midimage}" alt="" /></a>
-							<h2>
-								<a href="get-video-details?videoId=${moreRelatedVideos.id}">${moreRelatedVideos.title}</a>
-							</h2>
-							<div class="price-details">
-								<div class="price-number">
-							<div class="sharethis-inline-share-buttons"></div>
-								</div>
-								<div class="add-cart">
-									<h4>
-										<a href="get-video-details?videoId=${moreRelatedVideos.id}">Watch
-											Now</a>
-									</h4>
-								</div>
-								<div class="clear"></div>
-							</div>
-
-						</div>
-					</c:forEach>
-				</div>
-		<div class="content_top">
-    		<div class="heading">
-    		<h3>SOME MORE</h3>
-    		</div>
-    	</div>
-	      <div class="section group">
-	       <c:forEach items="${quran}" var="quran" begin="0" end="4">
-				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
-					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
-					<div class="price-details">
-				       <div class="price-number">
-							<p><span class="rupees">Rating 9.5</span></p>
-					    </div>
-					       		<div class="add-cart">								
-									<h4><a href="singleShow?showId=${shows.id}">Watch Now</a></h4>
-							     </div>
-							 <div class="clear"></div>
-					</div>					 
-				</div>
-				</c:forEach>
-			</div>
-
-
 
 			</div>
 		</div>
 	</div>
-<jsp:include page="footer.jsp"></jsp:include>
+	<jsp:include page="footer.jsp"></jsp:include>
 	<script type="text/javascript">
 		$(document).ready(function() {			
 			$().UItoTop({ easingType: 'easeOutQuart' });

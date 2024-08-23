@@ -53,16 +53,44 @@ public class CommanUIController {
 		model.addAttribute("quran", quran);
 	    return "completeQuran";
 	}
-	@RequestMapping(value = {"/islamicScholars"}, method = RequestMethod.GET)
-	public String islamicScholars(ModelMap model) {
-		List<YouTubeVideos> bestIslamicScholars=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.ISLAMIC_SCHOLARS, Language.ENGLISH,20);
-		model.addAttribute("bestIslamicScholars", bestIslamicScholars);
-	    return "islamicScholars";
-	}
 	@RequestMapping(value = {"/bestSurah"}, method = RequestMethod.GET)
 	public String bestSurah(ModelMap model) {
 		List<YouTubeVideos> bestSurah=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.SURAH, Language.ENGLISH, 50);
 		model.addAttribute("bestSurah", bestSurah);
 		return "bestSurah";
+	}
+	@RequestMapping(value = {"/englishBayan"}, method = RequestMethod.GET)
+	public String englishBayan(ModelMap model) {
+		List<YouTubeVideos> bayan=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.BAYAN, Language.ENGLISH, 50);
+		model.addAttribute("bayan", bayan);
+		model.addAttribute("bayanHeading", "ENGLISH BAYAN");
+		return "bayan";
+	}
+	@RequestMapping(value = {"/urduBayan"}, method = RequestMethod.GET)
+	public String urduBayan(ModelMap model) {
+		List<YouTubeVideos> bayan=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.BAYAN, Language.URDU_HINDI, 50);
+		model.addAttribute("bayan", bayan);
+		model.addAttribute("bayanHeading", "URDU/HINDI BAYAN");
+		return "bayan";
+	}
+	@RequestMapping(value = {"/prophetSerriesEnglish"}, method = RequestMethod.GET)
+	public String prophetSerriesEnglish(ModelMap model) {
+		List<YouTubeVideos> prophetSeries=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.PROPHET_SERIES, Language.ENGLISH, 50);
+		model.addAttribute("prophetSeries", prophetSeries);
+		model.addAttribute("prophetSeriesHeading", "PROPHET SERIES ENGLISH ");
+		return "theProphetSeries";
+	}
+	@RequestMapping(value = {"/prophetSerriesUrdu"}, method = RequestMethod.GET)
+	public String prophetSerriesUrdu(ModelMap model) {
+		List<YouTubeVideos> prophetSeries=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.PROPHET_SERIES, Language.URDU_HINDI, 50);
+		model.addAttribute("prophetSeries", prophetSeries);
+		model.addAttribute("prophetSeriesHeading", "PROPHET SERIES URDU/HINDI ");
+		return "theProphetSeries";
+	}
+	@RequestMapping(value = {"/islamicScholars"}, method = RequestMethod.GET)
+	public String islamicScholars(ModelMap model) {
+		List<YouTubeVideos> bestIslamicScholars=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.ISLAMIC_SCHOLARS, Language.ENGLISH,20);
+		model.addAttribute("bestIslamicScholars", bestIslamicScholars);
+	    return "islamicScholars";
 	}
 }
