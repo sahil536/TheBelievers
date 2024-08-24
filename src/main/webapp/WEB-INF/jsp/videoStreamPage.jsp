@@ -54,8 +54,6 @@
 					<ul>
 						<li><a href="contact.html">Register</a></li>
 						<li><a href="contact.html">Login</a></li>
-						<li><a href="preview.html">Delivery</a></li>
-						<li><a href="#">Checkout</a></li>
 						<li><a href="#">My Account</a></li>
 					</ul>
 				</div>
@@ -70,7 +68,7 @@
 				<div class="header_top_right">
 					<div class="cart">
 						<p>
-							<span>Quran</span>
+							<span>BELIEVER</span>
 						<div id="dd" class="wrapper-dropdown-2">
 							<ul class="dropdown">
 
