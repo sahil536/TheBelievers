@@ -149,7 +149,7 @@
 				</div>
 				<div class="section group">
 					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="0" end="4">
+						begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
 								src="${moreRelatedVideos.midimage}" alt="" /></a>
@@ -174,7 +174,7 @@
 				</div>
 				<div class="section group">
 					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="5" end="9">
+						begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
 								src="${moreRelatedVideos.midimage}" alt="" /></a>
@@ -199,7 +199,7 @@
 				</div>
 				<div class="section group">
 					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="10" end="14">
+						begin="8" end="11">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
 								src="${moreRelatedVideos.midimage}" alt="" /></a>
@@ -224,7 +224,7 @@
 				</div>
 				<div class="section group">
 					<c:forEach items="${moreRelatedVideos}" var="moreRelatedVideos"
-						begin="15" end="19">
+						begin="12" end="15">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${moreRelatedVideos.id}"><img
 								src="${moreRelatedVideos.midimage}" alt="" /></a>

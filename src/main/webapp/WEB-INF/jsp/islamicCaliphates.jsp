@@ -38,16 +38,16 @@ article p, h2 {
 			<div class="content">
 				<div class="content_top">
 					<div class="heading">
-						<h3>${bayanHeading}</h3>
+						<h3>ISLAMIC CALIPHATES</h3>
 					</div>
 				</div>
 				<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="0" end="4">
+					<c:forEach items="${caliph}" var="caliph" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${bayan.id}"><img
-								src="${bayan.midimage}" alt="" /></a>
+							<a href="get-video-details?videoId=${caliph.id}"><img
+								src="${caliph.midimage}" alt="" /></a>
 							<h2>
-								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+								<a href="get-video-details?videoId=${caliph.id}">${caliph.title}</a>
 							</h2>
 							<div class="price-details">
 								<div class="price-number">
@@ -56,7 +56,7 @@ article p, h2 {
 								<div class="add-cart">
 
 									<h4>
-										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+										<a href="get-video-details?videoId=${caliph.id}">Watch Now</a>
 									</h4>
 								</div>
 								<div class="clear"></div>
@@ -65,21 +65,22 @@ article p, h2 {
 						</div>
 					</c:forEach>
 				</div>
-				<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="5" end="9">
+                 <div class="section group">
+					<c:forEach items="${caliph}" var="caliph" begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${bayan.id}"><img
-								src="${bayan.midimage}" alt="" /></a>
+							<a href="get-video-details?videoId=${caliph.id}"><img
+								src="${caliph.midimage}" alt="" /></a>
 							<h2>
-								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+								<a href="get-video-details?videoId=${caliph.id}">${caliph.title}</a>
 							</h2>
 							<div class="price-details">
 								<div class="price-number">
 									<div class="sharethis-inline-share-buttons"></div>
 								</div>
 								<div class="add-cart">
+
 									<h4>
-										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+										<a href="get-video-details?videoId=${caliph.id}">Watch Now</a>
 									</h4>
 								</div>
 								<div class="clear"></div>
@@ -88,21 +89,22 @@ article p, h2 {
 						</div>
 					</c:forEach>
 				</div>
-								<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="10" end="14">
+				               <div class="section group">
+					<c:forEach items="${caliph}" var="caliph" begin="8" end="11">
 						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${bayan.id}"><img
-								src="${bayan.midimage}" alt="" /></a>
+							<a href="get-video-details?videoId=${caliph.id}"><img
+								src="${caliph.midimage}" alt="" /></a>
 							<h2>
-								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+								<a href="get-video-details?videoId=${caliph.id}">${caliph.title}</a>
 							</h2>
 							<div class="price-details">
 								<div class="price-number">
 									<div class="sharethis-inline-share-buttons"></div>
 								</div>
 								<div class="add-cart">
+
 									<h4>
-										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+										<a href="get-video-details?videoId=${caliph.id}">Watch Now</a>
 									</h4>
 								</div>
 								<div class="clear"></div>
@@ -111,33 +113,7 @@ article p, h2 {
 						</div>
 					</c:forEach>
 				</div>
-								<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="15" end="19">
-						<div class="grid_1_of_5 images_1_of_5">
-							<a href="get-video-details?videoId=${bayan.id}"><img
-								src="${bayan.midimage}" alt="" /></a>
-							<h2>
-								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
-							</h2>
-							<div class="price-details">
-								<div class="price-number">
-									<div class="sharethis-inline-share-buttons"></div>
-								</div>
-								<div class="add-cart">
-									<h4>
-										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
-									</h4>
-								</div>
-								<div class="clear"></div>
-							</div>
-
-						</div>
-					</c:forEach>
-				</div>
-
-
-
-
+								
 				<div class="content_top">
 					<div class="heading">
 						<h3>SOME MORE</h3>
@@ -146,7 +122,7 @@ article p, h2 {
 				<div class="section group">
 					<c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="4">
 						<div class="grid_1_of_5 images_1_of_5">
-							<a href="preview.html"><iframe width="182" height="300"
+							<a href="preview.html"><iframe width="200" height="300"
 									src="${bestshorts.embadableURL}" title="" frameborder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share"
 									referrerpolicy="strict-origin-when-cross-origin"

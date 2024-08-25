@@ -29,7 +29,7 @@
     		</div>
     	  </div>
 				<div class="section group">
-					<c:forEach items="${prophetSeries}" var="prophetSeries" begin="0" end="4">
+					<c:forEach items="${prophetSeries}" var="prophetSeries" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${prophetSeries.id}"><img
 								src="${prophetSeries.midimage}" alt="" /></a>
@@ -53,7 +53,7 @@
 					</c:forEach>
 				</div>
 				<div class="section group">
-    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="5" end="9">
+    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="4" end="7">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="get-video-details?videoId=${prophetSeries.id}"><img src="${prophetSeries.midimage}" alt="" /></a>
 					 <h2><a href="get-video-details?videoId=${prophetSeries.id}">${prophetSeries.title}</a></h2>
@@ -71,7 +71,7 @@
 				</c:forEach>
 			</div>	
 							<div class="section group">
-    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="10" end="14">
+    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="8" end="11">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="get-video-details?videoId=${prophetSeries.id}"><img src="${prophetSeries.midimage}" alt="" /></a>
 					 <h2><a href="get-video-details?videoId=${prophetSeries.id}">${prophetSeries.title}</a></h2>
@@ -88,8 +88,8 @@
 				</div>
 				</c:forEach>
 			</div>
-							<div class="section group">
-    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="15" end="19">
+			<div class="section group">
+    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="12" end="15">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="get-video-details?videoId=${prophetSeries.id}"><img src="${prophetSeries.midimage}" alt="" /></a>
 					 <h2><a href="get-video-details?videoId=${prophetSeries.id}">${prophetSeries.title}</a></h2>
@@ -105,14 +105,32 @@
 					 
 				</div>
 				</c:forEach>
-			</div>		
+			</div>	
+			<div class="section group">
+    	  		<c:forEach items="${prophetSeries}" var="prophetSeries" begin="16" end="19">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="get-video-details?videoId=${prophetSeries.id}"><img src="${prophetSeries.midimage}" alt="" /></a>
+					 <h2><a href="get-video-details?videoId=${prophetSeries.id}">${prophetSeries.title}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="get-video-details?videoId=${prophetSeries.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>
+					 
+				</div>
+				</c:forEach>
+			</div>			
 			<div class="content_top">
     		<div class="heading">
     		<h3>SOME MORE</h3>
     		</div>
     	</div>
 	      <div class="section group">
-	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="4">
+	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="3">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
 					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>

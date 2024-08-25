@@ -29,7 +29,7 @@
     		</div>
     	  </div>
 				<div class="section group">
-					<c:forEach items="${bestSurah}" var="bestSurah" begin="0" end="4">
+					<c:forEach items="${bestSurah}" var="bestSurah" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bestSurah.id}"><img
 								src="${bestSurah.midimage}" alt="" /></a>
@@ -53,7 +53,7 @@
 					</c:forEach>
 				</div>
                 <div class="section group">
-					<c:forEach items="${bestSurah}" var="bestSurah" begin="5" end="9">
+					<c:forEach items="${bestSurah}" var="bestSurah" begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bestSurah.id}"><img
 								src="${bestSurah.midimage}" alt="" /></a>
@@ -77,7 +77,7 @@
 					</c:forEach>
 				</div>
                 <div class="section group">
-					<c:forEach items="${bestSurah}" var="bestSurah" begin="10" end="14">
+					<c:forEach items="${bestSurah}" var="bestSurah" begin="8" end="11">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bestSurah.id}"><img
 								src="${bestSurah.midimage}" alt="" /></a>
@@ -101,7 +101,31 @@
 					</c:forEach>
 				</div>
 				<div class="section group">
-					<c:forEach items="${bestSurah}" var="bestSurah" begin="15" end="19">
+					<c:forEach items="${bestSurah}" var="bestSurah" begin="12" end="15">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bestSurah.id}"><img
+								src="${bestSurah.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bestSurah.id}">${bestSurah.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${bestSurah.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
+				<div class="section group">
+					<c:forEach items="${bestSurah}" var="bestSurah" begin="16" end="19">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bestSurah.id}"><img
 								src="${bestSurah.midimage}" alt="" /></a>
@@ -133,7 +157,7 @@
     		</div>
     	</div>
 	      <div class="section group">
-	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="4">
+	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="3">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="preview.html"><iframe width="182" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>					 
 				</div>

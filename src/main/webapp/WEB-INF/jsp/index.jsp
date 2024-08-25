@@ -35,7 +35,7 @@
     		</div>
     	  </div>
 				<div class="section group">
-					<c:forEach items="${quran}" var="quran" begin="0" end="4">
+					<c:forEach items="${quran}" var="quran" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${quran.id}"><img
 								src="${quran.midimage}" alt="" /></a>
@@ -59,7 +59,7 @@
 					</c:forEach>
 				</div>
 				<div class="section group">
-    	  		<c:forEach items="${quran}" var="quran" begin="5" end="9">
+    	  		<c:forEach items="${quran}" var="quran" begin="4" end="7">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="get-video-details?videoId=${quran.id}"><img src="${quran.midimage}" alt="" /></a>
 					 <h2><a href="get-video-details?videoId=${quran.id}">${quran.title}</a></h2>
@@ -84,7 +84,7 @@
     		</div>
     	  </div>
     	      	<div class="section group">
-					<c:forEach items="${bayanEnglish}" var="bayanEnglish" begin="0" end="4">
+					<c:forEach items="${bayanEnglish}" var="bayanEnglish" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayanEnglish.id}"><img
 								src="${bayanEnglish.midimage}" alt="" /></a>
@@ -109,7 +109,7 @@
 				</div>
 				
 				  <div class="section group">
-					<c:forEach items="${bayanEnglish}" var="bayanEnglish" begin="5" end="9">
+					<c:forEach items="${bayanEnglish}" var="bayanEnglish" begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayanEnglish.id}"><img
 								src="${bayanEnglish.midimage}" alt="" /></a>
@@ -141,7 +141,7 @@
     		</div>
     	  </div>
     	  		<div class="section group">
-					<c:forEach items="${prophetSeriesEnglish}" var="prophetSeriesEnglish" begin="0" end="4">
+					<c:forEach items="${prophetSeriesEnglish}" var="prophetSeriesEnglish" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${prophetSeriesEnglish.id}"><img
 								src="${prophetSeriesEnglish.midimage}" alt="" /></a>
@@ -172,7 +172,7 @@
     	  </div>
     	  
     	      	  	<div class="section group">
-					<c:forEach items="${prophetSeriesUrduHindi}" var="prophetSeriesUrduHindi" begin="0" end="4">
+					<c:forEach items="${prophetSeriesUrduHindi}" var="prophetSeriesUrduHindi" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}"><img
 								src="${prophetSeriesUrduHindi.midimage}" alt="" /></a>
@@ -196,7 +196,7 @@
 					</c:forEach>
 				</div>
 				<div class="section group">
-					<c:forEach items="${prophetSeriesUrduHindi}" var="prophetSeriesUrduHindi" begin="5" end="9">
+					<c:forEach items="${prophetSeriesUrduHindi}" var="prophetSeriesUrduHindi" begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${prophetSeriesUrduHindi.id}"><img
 								src="${prophetSeriesUrduHindi.midimage}" alt="" /></a>
@@ -229,7 +229,7 @@
     	  </div>
 
 				 <div class="section group">
-					<c:forEach items="${bayanUrduHindi}" var="bayanUrduHindi" begin="0" end="4">
+					<c:forEach items="${bayanUrduHindi}" var="bayanUrduHindi" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayanUrduHindi.id}"><img
 								src="${bayanUrduHindi.midimage}" alt="" /></a>
@@ -253,7 +253,7 @@
 					</c:forEach>
 				</div>
 				<div class="section group">
-					<c:forEach items="${bayanUrduHindi}" var="bayanUrduHindi" begin="5" end="9">
+					<c:forEach items="${bayanUrduHindi}" var="bayanUrduHindi" begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayanUrduHindi.id}"><img
 								src="${bayanUrduHindi.midimage}" alt="" /></a>
@@ -284,9 +284,9 @@
     		</div>
     	</div>
 	      <div class="section group">
-	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="4">
+	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="3">
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><iframe width="182" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
+					 <a href="preview.html"><iframe width="220" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
 		
 									 
 				</div>

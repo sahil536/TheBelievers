@@ -42,7 +42,7 @@ article p, h2 {
 					</div>
 				</div>
 				<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="0" end="4">
+					<c:forEach items="${bayan}" var="bayan" begin="0" end="3">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayan.id}"><img
 								src="${bayan.midimage}" alt="" /></a>
@@ -66,7 +66,7 @@ article p, h2 {
 					</c:forEach>
 				</div>
 				<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="5" end="9">
+					<c:forEach items="${bayan}" var="bayan" begin="4" end="7">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayan.id}"><img
 								src="${bayan.midimage}" alt="" /></a>
@@ -89,7 +89,7 @@ article p, h2 {
 					</c:forEach>
 				</div>
 								<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="10" end="14">
+					<c:forEach items="${bayan}" var="bayan" begin="8" end="11">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayan.id}"><img
 								src="${bayan.midimage}" alt="" /></a>
@@ -111,8 +111,8 @@ article p, h2 {
 						</div>
 					</c:forEach>
 				</div>
-								<div class="section group">
-					<c:forEach items="${bayan}" var="bayan" begin="15" end="19">
+				<div class="section group">
+					<c:forEach items="${bayan}" var="bayan" begin="12" end="15">
 						<div class="grid_1_of_5 images_1_of_5">
 							<a href="get-video-details?videoId=${bayan.id}"><img
 								src="${bayan.midimage}" alt="" /></a>
@@ -134,6 +134,30 @@ article p, h2 {
 						</div>
 					</c:forEach>
 				</div>
+				<div class="section group">
+					<c:forEach items="${bayan}" var="bayan" begin="16" end="19">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${bayan.id}"><img
+								src="${bayan.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${bayan.id}">${bayan.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+									<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+									<h4>
+										<a href="get-video-details?videoId=${bayan.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
+				
 
 
 

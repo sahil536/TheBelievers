@@ -56,12 +56,13 @@
 					 <h2>Ibn Khaldun</h2>	
 					  <h2>(1332-1406)</h2>		 
 				</div>
-				<div class="grid_1_of_5 images_1_of_5">
+		
+				</div>
+			 <div class="section group">
+			 <div class="grid_1_of_5 images_1_of_5">
 					 <h2>Al-Ghazali</h2>	
 					  <h2>(1058-1111)</h2>		 
 				</div>
-				</div>
-				<div class="section group">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <h2>Al-Khwarizmi</h2>	
 					  <h2>(780-850)</h2>		 
@@ -73,17 +74,28 @@
 					<div class="grid_1_of_5 images_1_of_5">
 					 <h2>Ibn Kathir</h2>	
 					  <h2>(1301-1373)</h2>		 
-				</div>
+		
+
+				</div>	
+			<div class="section group">
+					
 					<div class="grid_1_of_5 images_1_of_5">
 					 <h2>Ibn Battuta</h2>	
 					  <h2>(1304-1368)</h2>		 
 				</div>
-					<div class="grid_1_of_5 images_1_of_5">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <h2>Ibn Khaldun</h2>	
+					  <h2>(1332-1406)</h2>		 
+				</div>
+				<div class="grid_1_of_5 images_1_of_5">
 					 <h2>Al-Razi </h2>	
 					  <h2>(865-925)</h2>		 
 				</div>
-				</div>	
-
+			 <div class="grid_1_of_5 images_1_of_5">
+					 <h2>Al-Firdausi </h2>	
+					  <h2>(935-1020)</h2>		 
+				</div>
+            </div>
 			</div>
 			
 			<!-- The English Bayan -->
@@ -123,7 +135,7 @@
     		</div>
     	</div>
 	      <div class="section group">
-	       <c:forEach items="${quran}" var="quran" begin="0" end="4">
+	       <c:forEach items="${quran}" var="quran" begin="0" end="3">
 				<div class="grid_1_of_5 images_1_of_5">
 					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
 					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
@@ -139,7 +151,57 @@
 				</div>
 				</c:forEach>
 			</div>
-			
+			 <div class="section group">
+	       <c:forEach items="${quran}" var="quran" begin="4" end="7">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
+					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="singleShow?showId=${shows.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>					 
+				</div>
+				</c:forEach>
+			</div>
+			 <div class="section group">
+	       <c:forEach items="${quran}" var="quran" begin="8" end="11">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
+					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="singleShow?showId=${shows.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>					 
+				</div>
+				</c:forEach>
+			</div>
+			 <div class="section group">
+	       <c:forEach items="${quran}" var="quran" begin="12" end="15">
+				<div class="grid_1_of_5 images_1_of_5">
+					 <a href="preview.html"><iframe width="182" height="300" src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
+					 <h2><a href="singleShow?showId=${shows.id}">${shows.name}</a></h2>
+					<div class="price-details">
+				       <div class="price-number">
+							<p><span class="rupees">Rating 9.5</span></p>
+					    </div>
+					       		<div class="add-cart">								
+									<h4><a href="singleShow?showId=${shows.id}">Watch Now</a></h4>
+							     </div>
+							 <div class="clear"></div>
+					</div>					 
+				</div>
+				</c:forEach>
+			</div>
 	
 			
 			

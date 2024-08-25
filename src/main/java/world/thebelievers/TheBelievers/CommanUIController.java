@@ -87,6 +87,14 @@ public class CommanUIController {
 		model.addAttribute("prophetSeriesHeading", "PROPHET SERIES URDU/HINDI ");
 		return "theProphetSeries";
 	}
+	
+	@RequestMapping(value = {"/islamicCaliphates"}, method = RequestMethod.GET)
+	public String islamicCaliphates(ModelMap model) {
+		List<YouTubeVideos> caliph=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.CALIPH, Language.ENGLISH,20);
+		model.addAttribute("caliph", caliph);
+	    return "islamicCaliphates";
+	}
+	
 	@RequestMapping(value = {"/islamicScholars"}, method = RequestMethod.GET)
 	public String islamicScholars(ModelMap model) {
 		List<YouTubeVideos> bestIslamicScholars=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.ISLAMIC_SCHOLARS, Language.ENGLISH,20);
