@@ -101,4 +101,32 @@ public class CommanUIController {
 		model.addAttribute("bestIslamicScholars", bestIslamicScholars);
 	    return "islamicScholars";
 	}
+	
+	@RequestMapping(value = {"/registration"}, method = RequestMethod.GET)
+	public String registration(ModelMap model) {
+		model.addAttribute("loginDetails", "loginDetails");
+	    return "userRegistration";
+	}
+	@RequestMapping(value = {"/login"}, method = RequestMethod.GET)
+	public String login(ModelMap model) {
+		model.addAttribute("loginDetails", "loginDetails");
+	    return "login";
+	}
+	
+	@RequestMapping(value = {"/aboutUs"}, method = RequestMethod.GET)
+	public String aboutUs(ModelMap model) {
+		
+	    return "aboutUs";
+	}
+	@RequestMapping(value = {"/contactUs"}, method = RequestMethod.GET)
+	public String contactUs(ModelMap model) {
+		
+	    return "contactUs";
+	}
+	@RequestMapping(value = {"/myAccount"}, method = RequestMethod.GET)
+	public String myAccount(ModelMap model) {
+		
+	    return "myaccount";
+	}
+	
 }

@@ -4,15 +4,15 @@
 			<div class="nav_list">
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="contact.html">About Us</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="aboutUs">About Us</a></li>
+					<li><a href="contactUs">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="account_desc">
 				<ul>
-					<li><a href="contact.html">Register</a></li>
-					<li><a href="contact.html">Login</a></li>
-					<li><a href="#">My Account</a></li>
+					<li><a href="login">Register</a></li>
+					<li><a href="login">Login</a></li>
+					<li><a href="myAccount">My Account</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
