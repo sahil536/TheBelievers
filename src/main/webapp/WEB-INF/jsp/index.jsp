@@ -164,6 +164,30 @@
 						</div>
 					</c:forEach>
 				</div>
+				    	  		<div class="section group">
+					<c:forEach items="${prophetSeriesEnglish}" var="prophetSeriesEnglish" begin="4" end="7">
+						<div class="grid_1_of_5 images_1_of_5">
+							<a href="get-video-details?videoId=${prophetSeriesEnglish.id}"><img
+								src="${prophetSeriesEnglish.midimage}" alt="" /></a>
+							<h2>
+								<a href="get-video-details?videoId=${prophetSeriesEnglish.id}">${prophetSeriesEnglish.title}</a>
+							</h2>
+							<div class="price-details">
+								<div class="price-number">
+							<div class="sharethis-inline-share-buttons"></div>
+								</div>
+								<div class="add-cart">
+								
+									<h4>
+										<a href="get-video-details?videoId=${prophetSeriesEnglish.id}">Watch Now</a>
+									</h4>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+					</c:forEach>
+				</div>
 			<!-- Prophet Series Urdu/Hindi -->
 			<div class="content_bottom">
     		<div class="heading">
