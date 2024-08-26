@@ -87,7 +87,7 @@ button:hover {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position:fixed; 
-    top:23px;
+    top:20px;
 }
 
 .menu-bar ul {

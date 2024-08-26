@@ -286,7 +286,7 @@
 	      <div class="section group">
 	       <c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="3">
 				<div class="grid_1_of_5 images_1_of_5">
-					 <a href="preview.html"><iframe width="210" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
+					 <a href="preview.html"><iframe width="185" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>
 		
 									 
 				</div>
