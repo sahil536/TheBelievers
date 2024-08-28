@@ -50,7 +50,9 @@ public class CommanUIController {
 	@RequestMapping(value = {"/completeQuran"}, method = RequestMethod.GET)
 	public String completeQuran(ModelMap model) {
 		List<YouTubeVideos> quran=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.QURAN, Language.ENGLISH, 114);
+		List<YouTubeVideos> bestshorts=commonService.getYouTubeVideoListByCategoryAndLanguage(Category.SHORTS, Language.ENGLISH, 20);
 		model.addAttribute("quran", quran);
+		model.addAttribute("bestshorts", bestshorts);
 	    return "completeQuran";
 	}
 	@RequestMapping(value = {"/bestSurah"}, method = RequestMethod.GET)

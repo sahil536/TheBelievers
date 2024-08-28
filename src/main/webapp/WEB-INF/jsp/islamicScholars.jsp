@@ -84,8 +84,8 @@
 					  <h2>(1304-1368)</h2>		 
 				</div>
 				<div class="grid_1_of_5 images_1_of_5">
-					 <h2>Ibn Khaldun</h2>	
-					  <h2>(1332-1406)</h2>		 
+					 <h2>Imam Abu Hanifa</h2>	
+					  <h2>(699-767)</h2>		 
 				</div>
 				<div class="grid_1_of_5 images_1_of_5">
 					 <h2>Al-Razi </h2>	

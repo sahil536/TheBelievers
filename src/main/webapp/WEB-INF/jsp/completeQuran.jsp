@@ -730,32 +730,11 @@
 					</div>
 				</div>
 				<div class="section group">
-					<c:forEach items="${quran}" var="quran" begin="0" end="4">
-						<div class="grid_1_of_5 images_1_of_5">
-							<a href="preview.html"><iframe width="182" height="300"
-									src="https://www.youtube.com/embed/GrBaA6YrC_w?modestbranding=1&showinfo=0"
-									title="" frameborder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share"
-									referrerpolicy="strict-origin-when-cross-origin"
-									allowfullscreen></iframe></a>
-							<h2>
-								<a href="singleShow?showId=${shows.id}">${shows.name}</a>
-							</h2>
-							<div class="price-details">
-								<div class="price-number">
-									<p>
-										<span class="rupees">Rating 9.5</span>
-									</p>
-								</div>
-								<div class="add-cart">
-									<h4>
-										<a href="singleShow?showId=${shows.id}">Watch Now</a>
-									</h4>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</c:forEach>
+				<c:forEach items="${bestshorts}" var="bestshorts" begin="0" end="3">
+				<div class="grid_1_of_5 images_1_of_5">
+			    <a href="preview.html"><iframe width="185" height="300" src="${bestshorts.embadableURL}"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></a>					 
+				</div>
+				</c:forEach>
 				</div>
 
 
