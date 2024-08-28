@@ -43,13 +43,13 @@
 				<div class="social-icons">
 					<h4>Follow Us</h4>
 					<ul>
-						<li><a href="#" target="_blank"><img
+						<li><a href="https://www.facebook.com/believersoneummah/" target="_blank"><img
 								src="new/images/facebook.png" alt="" /></a></li>
-						<li><a href="#" target="_blank"><img
+						<li><a href="https://www.youtube.com/@BelieversOneUmmah" target="_blank"><img
 								src="new/images/twitter.png" alt="" /></a></li>
-						<li><a href="#" target="_blank"><img
+						<li><a href="https://www.youtube.com/@BelieversOneUmmah" target="_blank"><img
 								src="new/images/skype.png" alt="" /> </a></li>
-						<li><a href="#" target="_blank"> <img
+						<li><a href="https://www.youtube.com/@BelieversOneUmmah" target="_blank"> <img
 								src="new/images/linkedin.png" alt="" /></a></li>
 					</ul>
 				</div>

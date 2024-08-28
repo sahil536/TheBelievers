@@ -9,11 +9,11 @@
 		<li><a href="prophetSerriesUrdu">PROPHET SERIES URDU</a></li>
 		<li><a href="islamicCaliphates">Islamic Caliphates(Khalifa)</a></li>
 		<li><a href="islamicScholars">ISLAMIC SCHOLARS</a></li>
-		<li><a href="">THE LOST ISLAMIC HISTORY</a></li>
-		<li><a href="">ISLAMIC GOLDEN AGE</a></li>
-		<li><a href="">LEARN ISLAM</a></li>
-		<li><a href="">FIVE PILLARS OF ISLAM</a></li>
-		<li><a href="">WHO ARE TRUE BELIEVERS</a></li>
+		<li><a >THE LOST ISLAMIC HISTORY</a></li>
+		<li><a >ISLAMIC GOLDEN AGE</a></li>
+		<li><a >LEARN ISLAM</a></li>
+		<li><a >FIVE PILLARS OF ISLAM</a></li>
+		<li><a >WHO ARE TRUE BELIEVERS</a></li>
 
 	</ul>
 </div>
