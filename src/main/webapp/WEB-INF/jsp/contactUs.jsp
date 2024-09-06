@@ -97,7 +97,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    width: 100%;
+    width: 98%;
 }
 
 .content-container button {

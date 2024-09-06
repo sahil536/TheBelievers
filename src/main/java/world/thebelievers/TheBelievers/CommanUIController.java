@@ -131,4 +131,10 @@ public class CommanUIController {
 	    return "myaccount";
 	}
 	
+	@RequestMapping(value = {"/quranSurvey"}, method = RequestMethod.GET)
+	public String quranSurvey(ModelMap model) {
+		
+	    return "quranSurvey";
+	}
+	
 }

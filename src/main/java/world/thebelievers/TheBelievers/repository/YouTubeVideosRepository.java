@@ -13,7 +13,7 @@ import world.thebelievers.TheBelievers.util.Language;
 
 @EnableJpaRepositories
 public interface YouTubeVideosRepository extends JpaRepository<YouTubeVideos, Long> {
-	@Query(value="select * from youtube_videos where video_category= :category and video_language= :language LIMIT :limit" , nativeQuery = true)
+	@Query(value="select * from youtube_videos where video_category= :category and video_language= :language ORDER BY video_ordering_number ASC LIMIT :limit" , nativeQuery = true)
 	List<YouTubeVideos> getYouTubeVideoListByCategoryAndLanguage(@Param("category") String category ,@Param("language") String language,@Param("limit") Integer limit);
 
 }

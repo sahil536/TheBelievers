@@ -30,6 +30,8 @@ public class YouTubeVideos {
 	@Column(name = "active")
 	private Integer isActive;
 	@Column(name = "surah_no")
+	private Integer surahNumber;
+	@Column(name = "video_ordering_number")
 	private Integer orderingNumber;
 	public Long getId() {
 		return id;
@@ -91,12 +93,18 @@ public class YouTubeVideos {
 	public void setIsActive(Integer isActive) {
 		this.isActive = isActive;
 	}
+	public Integer getSurahNumber() {
+		return surahNumber;
+	}
+	public void setSurahNumber(Integer surahNumber) {
+		this.surahNumber = surahNumber;
+	}
 	public Integer getOrderingNumber() {
 		return orderingNumber;
 	}
 	public void setOrderingNumber(Integer orderingNumber) {
 		this.orderingNumber = orderingNumber;
-	}  
+	}
 	public YouTubeVideos() {
 		
 	}
